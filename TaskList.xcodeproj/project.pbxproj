@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F1E28371F03A9D700DACA3D /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E28361F03A9D700DACA3D /* RealmDaoHelper.swift */; };
-		1F1E28381F03A9D700DACA3D /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E28361F03A9D700DACA3D /* RealmDaoHelper.swift */; };
 		1F1E283A1F03AA5200DACA3D /* FolderDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E28391F03AA5200DACA3D /* FolderDao.swift */; };
-		1F1E283B1F03AA5200DACA3D /* FolderDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E28391F03AA5200DACA3D /* FolderDao.swift */; };
+		1F3190DC1F05F5D40038571A /* TaskDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3190DB1F05F5D40038571A /* TaskDao.swift */; };
+		1F3190DF1F0611A70038571A /* TaskDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3190DE1F0611A70038571A /* TaskDaoTests.swift */; };
 		1F717BCA1EFBBAA600CEF11D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F717BC91EFBBAA600CEF11D /* AppDelegate.swift */; };
 		1F717BCC1EFBBAA600CEF11D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F717BCB1EFBBAA600CEF11D /* ViewController.swift */; };
 		1F717BCF1EFBBAA600CEF11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F717BCD1EFBBAA600CEF11D /* Main.storyboard */; };
@@ -18,12 +18,10 @@
 		1F717BD41EFBBAA700CEF11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F717BD21EFBBAA700CEF11D /* LaunchScreen.storyboard */; };
 		1F717BEA1EFBBAA800CEF11D /* TaskListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F717BE91EFBBAA800CEF11D /* TaskListUITests.swift */; };
 		1F717BFA1EFBBCA300CEF11D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F717BF91EFBBCA300CEF11D /* Task.swift */; };
-		1F717BFB1EFBBCA300CEF11D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F717BF91EFBBCA300CEF11D /* Task.swift */; };
 		1F717BFF1EFBBCE100CEF11D /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F717BFD1EFBBCE100CEF11D /* TaskTests.swift */; };
 		1F8EECBE1F03843C008D720E /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EECBD1F03843C008D720E /* Folder.swift */; };
-		1F8EECBF1F03843C008D720E /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EECBD1F03843C008D720E /* Folder.swift */; };
-		1F8EECC01F03843C008D720E /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EECBD1F03843C008D720E /* Folder.swift */; };
 		1F8EECC21F038556008D720E /* FolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EECC11F038556008D720E /* FolderTests.swift */; };
+		1FA6EF541F04C43300587891 /* FolderDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6EF531F04C43300587891 /* FolderDaoTests.swift */; };
 		721309711D570BE728F6E189 /* Pods_TaskListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324EB214E803AE0EA1C706D6 /* Pods_TaskListTests.framework */; };
 		78F732EA29850BE4277F9A4E /* Pods_TaskListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9267D825AFC4C027FAED134A /* Pods_TaskListUITests.framework */; };
 		E4570E0ACD55905D9AA0EC64 /* Pods_TaskList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDAA84D308AA5B48DC6EECB /* Pods_TaskList.framework */; };
@@ -49,6 +47,8 @@
 /* Begin PBXFileReference section */
 		1F1E28361F03A9D700DACA3D /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
 		1F1E28391F03AA5200DACA3D /* FolderDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FolderDao.swift; path = Models/FolderDao.swift; sourceTree = "<group>"; };
+		1F3190DB1F05F5D40038571A /* TaskDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskDao.swift; path = Models/TaskDao.swift; sourceTree = "<group>"; };
+		1F3190DE1F0611A70038571A /* TaskDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskDaoTests.swift; path = Models/TaskDaoTests.swift; sourceTree = "<group>"; };
 		1F717BC61EFBBAA600CEF11D /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F717BC91EFBBAA600CEF11D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F717BCB1EFBBAA600CEF11D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +65,7 @@
 		1F717BFD1EFBBCE100CEF11D /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 		1F8EECBD1F03843C008D720E /* Folder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Folder.swift; path = Models/Folder.swift; sourceTree = "<group>"; };
 		1F8EECC11F038556008D720E /* FolderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FolderTests.swift; path = Models/FolderTests.swift; sourceTree = "<group>"; };
+		1FA6EF531F04C43300587891 /* FolderDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FolderDaoTests.swift; path = Models/FolderDaoTests.swift; sourceTree = "<group>"; };
 		324EB214E803AE0EA1C706D6 /* Pods_TaskListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D09EA5D5FC3DCA80A0963E1 /* Pods-TaskListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskListUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskListUITests/Pods-TaskListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B38A840032C57D02799E6B9 /* Pods-TaskList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskList.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskList/Pods-TaskList.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +179,7 @@
 				1F717BF91EFBBCA300CEF11D /* Task.swift */,
 				1F8EECBD1F03843C008D720E /* Folder.swift */,
 				1F1E28391F03AA5200DACA3D /* FolderDao.swift */,
+				1F3190DB1F05F5D40038571A /* TaskDao.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -195,6 +197,8 @@
 			children = (
 				1F717BFD1EFBBCE100CEF11D /* TaskTests.swift */,
 				1F8EECC11F038556008D720E /* FolderTests.swift */,
+				1FA6EF531F04C43300587891 /* FolderDaoTests.swift */,
+				1F3190DE1F0611A70038571A /* TaskDaoTests.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -495,6 +499,7 @@
 			files = (
 				1F1E283A1F03AA5200DACA3D /* FolderDao.swift in Sources */,
 				1F717BCC1EFBBAA600CEF11D /* ViewController.swift in Sources */,
+				1F3190DC1F05F5D40038571A /* TaskDao.swift in Sources */,
 				1F717BFA1EFBBCA300CEF11D /* Task.swift in Sources */,
 				1F717BCA1EFBBAA600CEF11D /* AppDelegate.swift in Sources */,
 				1F8EECBE1F03843C008D720E /* Folder.swift in Sources */,
@@ -506,12 +511,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F1E283B1F03AA5200DACA3D /* FolderDao.swift in Sources */,
 				1F717BFF1EFBBCE100CEF11D /* TaskTests.swift in Sources */,
-				1F717BFB1EFBBCA300CEF11D /* Task.swift in Sources */,
-				1F8EECBF1F03843C008D720E /* Folder.swift in Sources */,
+				1F3190DF1F0611A70038571A /* TaskDaoTests.swift in Sources */,
+				1FA6EF541F04C43300587891 /* FolderDaoTests.swift in Sources */,
 				1F8EECC21F038556008D720E /* FolderTests.swift in Sources */,
-				1F1E28381F03A9D700DACA3D /* RealmDaoHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +523,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F717BEA1EFBBAA800CEF11D /* TaskListUITests.swift in Sources */,
-				1F8EECC01F03843C008D720E /* Folder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
